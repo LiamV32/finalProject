@@ -1,0 +1,10 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+.required {
+    color: red;
+}
+legend,
+h2 {
+    font-weight: bold;
+}
