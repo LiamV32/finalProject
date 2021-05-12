@@ -77,9 +77,7 @@ function start() {
   searchForm.onsubmit = function(event) {
     // Stop the form from trying to submit over the network. We'll process the data here.
     event.preventDefault();
-
-    // TODO - get the value from the search form input and pass it to the
-    // search() function (already defined in js/search.js)
+    
     //console.log('TODO - call search() function with value from search form');
     search(searchForm.search.value);
   };
