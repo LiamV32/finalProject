@@ -99,12 +99,8 @@ function buildCardForObservation(observation) {
 }
 
 function toggleLoading(isLoading) {
-  // TODO - toggle the state of the Search button. When we click 'Search' we need to 
-  // indicate to the user that we're doing something (i.e., that we're Loading...).
-  // We also need to change the icon from a search magnifying glass to an hourglass.
-  // Finally, we need to disable the button, so the user doesn't click it multiple
-  // times (i.e., we need to wait until the loading finishes).  We decide what to
-  // do based on the value of the isLoading argument.
+  
+  
   //console.log('TODO - toggle the state of the Search button to/from Loading');
   const icon = document.querySelector('#icon');
   const text = document.querySelector('#btnText');
